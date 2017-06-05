@@ -26,5 +26,5 @@ $mysqli = new mysqli('', // host
 ```
 Modify the $query to be how you want it.  Then execute the script and pipe it to the filename you want:
 ```
-php exportCsv.php | file.csv
+php exportCsv.php > file.csv
 ```
